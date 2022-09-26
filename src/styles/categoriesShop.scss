@@ -1,0 +1,40 @@
+.wrapper{
+    &.categories-shop{
+        .title{
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+            margin:56px 100px;
+        }
+        .categories{
+            text-align: center;
+            font-size: 24px;
+            margin:56px 72px;
+            ul{
+                list-style: none;
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin:0;
+                li{
+
+                }
+            }
+        }
+        .items{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 16px 16px;
+            margin:56px 100px;
+        }
+        .load-more{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:80px 0;
+            button{
+                
+            }
+        }
+    }
+}

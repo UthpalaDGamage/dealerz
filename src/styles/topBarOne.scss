@@ -1,0 +1,25 @@
+@use './colors.scss';
+.wrapper.bar-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 100px;
+    align-items: center;
+    background: colors.$primary-light-background;
+    .top-left{
+        span{
+            font-weight: bold;
+            font-size: 39px;
+            color: colors.$secondary-light;
+        }
+    }
+    .top-right{
+        font-size: 16px;
+        span{
+            margin: 10px;
+            svg{
+                margin:0 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use './colors.scss';
+body{
+    font-family: 'DM Sans';
+    background-color: colors.$primary-light;
+    margin:0;
+    button{
+        background: colors.$button-background;
+        color:colors.$button-text;
+        padding:18px 24px;
+        border:solid 1px;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: colors.$button-background;
+    }
+}

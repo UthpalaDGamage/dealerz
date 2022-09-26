@@ -1,0 +1,26 @@
+@use './colors.scss';
+.wrapper.bar-two{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin:45px 90px;
+    .categories{
+        display: flex;
+        flex-direction:row ;
+        list-style: none;
+        padding:0;
+        li{
+            margin: 0 10px;
+        }
+    }
+    .search{
+        width:573px;
+    }
+    .icons{
+        display: flex;
+        flex-direction:row ;
+        div{
+            margin:0 23px;
+        }
+    }
+}

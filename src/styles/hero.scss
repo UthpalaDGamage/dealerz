@@ -1,0 +1,40 @@
+@use './colors.scss';
+.wrapper.hero{
+    background: colors.$primary-light-background;
+    position: relative;
+    img{
+        width: 100%;
+        height: 640px;
+    }
+    .inner-wrapper{
+        position: absolute;
+        left:50%;
+        top:135px;
+        .content{
+            width:600px;
+            .heading{
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 76.8px;
+                color:colors.$text-title-color;
+            }
+            .description{
+                font-weight: 400;
+                font-size: 16px;
+                color:colors.$text-body-color;
+            }
+            button{
+                background: colors.$button-background;
+                color:colors.$button-text;
+                padding:18px 24px;
+                border:solid 1px;
+                border-radius: 8px;
+                border-style: solid;
+                border-color: colors.$button-background;
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+    }
+    
+}

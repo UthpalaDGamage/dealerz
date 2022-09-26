@@ -1,0 +1,28 @@
+@use './colors.scss';
+.item-card{
+    width:100%;
+    position: relative;
+    padding:40px;
+    box-sizing: border-box;
+    background: colors.$primary-light-background;
+    img{
+        width:100%;
+        object-fit: cover;
+        
+    }
+    .content{
+        position:absolute;
+        bottom:70px;
+        font-weight: 700;
+        .name{
+            font-size: 16px;
+        }
+        .description{
+            font-size: 48px;
+            margin: 16px 0 32px 0;
+        }
+        button{
+
+        }
+    }
+}
